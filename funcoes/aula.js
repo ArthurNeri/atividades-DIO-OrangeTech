@@ -80,8 +80,9 @@ function classificarImc(imc) {
 }
 
 TENDO O CÁLCULO DO IMC E A CLASSIFICAÇÃO DELE, TEMOS AGORA QUE ADICIONAR(MANTER) NOSSAS VARIÁVEIS,
-CHAMAR O CÁLCULO E IMPRIMIR A CLASSIFICAÇÃO DO IMC
+CHAMAR O CÁLCULO E IMPRIMIR A CLASSIFICAÇÃO DO IMC DENTRO DA FUNCÇÃO PRINCIPAL:
 
+function main() {
 const peso = 55.5;
 const altura = 1.69;
 
@@ -89,10 +90,12 @@ const imc = calcularImc(peso, altura);
 
 console.log(imc)
 console.log(classificarImc)
+}
 
 PARA ENTREGAR UM RESULTADO MAIS BONITO AOS OLHOS EU DOU UMA FORMATADA BÁSICA NO "console.log" DO IMC,
 ADICIONANDO UMA MENSAGEM E REDUZINDO O NÚMERO DE CASAS DECIMÁIS:
 
+function main() {
 const peso = 55.5;
 const altura = 1.69;
 
@@ -100,6 +103,7 @@ const imc = calcularImc(peso, altura);
 
 console.log('IMC do paciente: ', imc.toFixed(2));
 console.log(classificarImc(imc));
+}
 
 O CÓDIGO FICARA DA SEGUINTE MANEIRA:
 */
@@ -122,6 +126,7 @@ function classificarImc(imc) {
     }
 }
 
+(function main() {
 // VARIÁVEIS:
 const peso = 55.5;
 const altura = 1.69;
@@ -134,3 +139,4 @@ console.log('IMC do paciente: ', imc.toFixed(2));
 
 // IMPRESSÃO DA CLASSIFICAÇÃO:
 console.log(classificarImc(imc));
+})();
