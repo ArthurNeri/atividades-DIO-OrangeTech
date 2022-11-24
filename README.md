@@ -1,13 +1,12 @@
 # atividades-DIO-OrangeTech
 Atividades do Bootcamp "OrangeTech+" da DIO 
 
-- Objetos:
-  - Aula;
-  - Lista de exercício (objetos);
+- Condicionais:
+  - Lista de exercício (condicionais);
   
 - Funções:
   - Aula;
   - Lista de exercícios (funções);
   
-- Classes:
+- Objeto:
   - Aula;
