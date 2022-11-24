@@ -1,4 +1,3 @@
-/*
 // faça uma função que escreva o seu nome
 function escreverNome(nome) {
     console.log('Meu nome é', nome);
@@ -18,5 +17,3 @@ function main() {
     conferirMaioridade(18);
 }
 main();
-*/
-// atividade da listaExercicio_03.js, adicionar funções:
