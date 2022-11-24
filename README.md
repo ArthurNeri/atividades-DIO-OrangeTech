@@ -2,7 +2,7 @@
 Atividades do Bootcamp "OrangeTech+" da DIO 
 
 - Condicionais:
-  - Lista de exercício (condicionais);
+  - Lista de exercícios (condicionais);
   
 - Funções:
   - Aula;
