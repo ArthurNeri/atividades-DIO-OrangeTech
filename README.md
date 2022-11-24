@@ -1,5 +1,13 @@
 # atividades-DIO-OrangeTech
-Atividades do Bootcamp OrangeTech da DIO 
+Atividades do Bootcamp "OrangeTech+" da DIO 
 
-- gasto por viagem (1° e 2° exercício)
-- lista de exercício 1
+- Objetos:
+  - Aula;
+  - Lista de exercício (objetos);
+ 
+ - Funções:
+  - Aula;
+  - Lista de exercícios (funções);
+  
+ - Classes:
+  - Aula;
