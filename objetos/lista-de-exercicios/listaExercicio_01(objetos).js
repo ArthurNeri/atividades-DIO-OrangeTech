@@ -44,15 +44,31 @@ class Carro {
 
     }
 
-    calcularLitros(distancia, precoCombustivel) {
-        return distancia * precoCombustivel * this.autonomia;
+    calcularLitros(distancia) {
+        return this.litros = distancia / this.autonomia;
+    }
+
+    calcularValor(precoCombustivel) {
+        return this.custo = precoCombustivel * this.litros;
+    }
+
+    escreverResposta() {
+        console.log('Utilizando o carro: ' + this.nome);
+        console.log('Com autonomia de: ' + this.autonomia + 'KM por Litro');
+        console.log('O gasto será de R$' + this.custo.toFixed(2));
+    }
+
+    main() {
+        this.calcularLitros(distancia);
+        this.calcularValor(precoCombustivel);
+        this.escreverResposta();
     }
 }
 
-const gol = new Carro('Gol', 'Volkswagen', 'branco', 1/9);
-const uno = new Carro('Uno', 'Fiat', 'azul', 1/12);
+const gol = new Carro('Gol', 'Volkswagen', 'branco', 9);
+const uno = new Carro('Uno', 'Fiat', 'azul', 12);
 
 const distancia = 120;
 const precoCombustivel = 5.79;
 
-console.log('R$' + gol.calcularLitros(distancia, precoCombustivel).toFixed(2));
+uno.main();

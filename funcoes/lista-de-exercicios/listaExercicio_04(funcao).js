@@ -79,7 +79,7 @@ let desconto = 'x';
 let tipo = 'x';
 let valorPago = 'x';
 const etiqueta = 100;
-const condicaoPagamento = 12;
+const condicaoPagamento = 0;
 const parcelas = condicaoPagamento;
 
 function main() {
